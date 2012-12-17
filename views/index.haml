@@ -3,6 +3,7 @@
 
 %img{src: "http://sk.lds.li/skitched-20121217-025412.jpg", alt: "World Purple Rain Hour", width: 1000, height: 1000}
 
+
 .content
   %h1 This is World Purple Rain Hour
   %p
@@ -14,6 +15,8 @@
   %p
     Follow
     %a{href: "http://twitter.com/purplerainhour"} @PurpleRainHour
-    to get in on this, and set your calendars for Midnight on the 21st of December (UTC Time, check 
-    %a{href: "http://everytimezone.com/#2012-12-21,-720,6be"} every time zone for your timezone
-    )
+    to get in on this, and set your calendars for Midnight on the 21st of December (UTC Time, check
+    = succeed ')' do
+      %a{href: "http://everytimezone.com/#2012-12-21,-720,6be"} every time zone for your timezone
+
+  = haml :addthis_buttons
