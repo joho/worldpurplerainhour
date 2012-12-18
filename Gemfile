@@ -1,6 +1,6 @@
 source :rubygems
 
-gem 'thin'
+gem 'puma'
 gem 'compass'
 gem 'sinatra'
 gem 'haml'
