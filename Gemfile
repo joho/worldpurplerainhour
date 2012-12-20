@@ -7,6 +7,7 @@ gem 'haml'
 gem 'sass'
 gem 'maruku'
 gem 'coffee-script'
+gem 'newrelic_rpm'
 
 group :development do
   gem 'heroku'

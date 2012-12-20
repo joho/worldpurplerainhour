@@ -33,6 +33,7 @@ GEM
     mime-types (1.19)
     multi_json (1.3.6)
     netrc (0.7.7)
+    newrelic_rpm (3.4.1)
     puma (1.6.3)
       rack (~> 1.2)
     rack (1.4.1)
@@ -60,6 +61,7 @@ DEPENDENCIES
   haml
   heroku
   maruku
+  newrelic_rpm
   puma
   sass
   sinatra
